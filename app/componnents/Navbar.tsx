@@ -9,10 +9,10 @@ export default function Navbar () {
                     <a href="#" className="block py-2 px-3 text-white  rounded md:bg-transparent  md:p-0 dark:text-white md:hover:text-red" aria-current="page">Home</a>
                     </li>
                     <li>
-                    <a href="#Projects" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red md:p-0 dark:text-white md:dark:hover:text-green  md:dark:hover:bg-transparent">Maps</a>
+                    <a href="#Map" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red md:p-0 dark:text-white md:dark:hover:text-green  md:dark:hover:bg-transparent">Maps</a>
                     </li>
                     <li>
-                    <a href="#Designs" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red md:p-0 dark:text-white md:dark:hover:text-green  md:dark:hover:bg-transparent">Mission</a>
+                    <a href="#Mission" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red md:p-0 dark:text-white md:dark:hover:text-green  md:dark:hover:bg-transparent">Mission</a>
                     </li>
                 </ul>
                 </div>

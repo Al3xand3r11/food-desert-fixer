@@ -30,7 +30,7 @@ export default function Map () {
 
 
     return (
-        <div className="h-screen items-center">
+        <div className="h-screen items-center" id="Map">
             <div className="content-center flex flex-col place-items-center w-full ">
                 <div className="pb-12 flex-col flex">
                     <form ref={form} onSubmit={handlePrompt} className="flex flex-col">
