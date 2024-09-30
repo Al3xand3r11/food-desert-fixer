@@ -21,7 +21,7 @@ export default function Map () {
 
         const chatCompletion = await client.chat.completions.create({
             messages: [
-                {role: "system", content: "You are an assiatant finding local vacant addresses that are given to you in a specific zipcode that can be used as a potential grocery store. You will also give the zip code's congress member and websites to help food insecurity in that area. Print it all out in seperate bullet points"},
+                {role: "system", content: "You are an assiatant finding local vacant addresses that are given to you in a specific zipcode that can be used as a potential grocery store. You will also give the zip codes congress member and websites to help food insecurity in that area. Print it all out in seperate bullet points"},
                 {role: 'user', content: `I live in ${zipCode} where is the closest food desert to me? What would be the best chain grocery store to benefit the community and could you give me an address of a local vacant building that could be used as this grocery store`}
             ],
             model: 'gpt-4o-mini',
@@ -29,6 +29,7 @@ export default function Map () {
         
         setPayload(chatCompletion.choices[0].message.content as string)
         console.log(chatCompletion.choices[0].message.content as string)
+        setZipEntered(true)
     }
 
 
