@@ -56,7 +56,7 @@ export default function Map () {
                 <MapContainer />
                 {zipEntered ?
                     <div className="pt-12 h-auto flex flex-col w-full place-items-center">
-                            <h1 className="text-3xl text-center font-bold text-white pb-8">Here's how you can help {zipCode}</h1>
+                            <h1 className="text-3xl text-center font-bold text-white pb-8">Here&apos;s how you can help {zipCode}</h1>
                             <h1 className="text-white text-xl w-2/3 text-center">{payload}</h1>
                     </div>
                     :

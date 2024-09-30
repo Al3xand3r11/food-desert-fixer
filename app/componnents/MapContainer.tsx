@@ -28,7 +28,7 @@ export function MapContainer() {
                 mapId: 'map-food-desert'
             }
 
-            
+            new Map(mapRef.current as unknown as HTMLDivElement, mapOptions)
         }
 
         initMap()
