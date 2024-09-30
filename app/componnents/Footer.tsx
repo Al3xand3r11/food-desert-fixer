@@ -6,12 +6,12 @@ const Footer = () => {
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-red ">Made in Next.Js and React</span>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-400 sm:mb-0">
                         <li>
-                            <a className="pr-2 hover:text-red" href="#map" target="_blank">
+                            <a className="pr-2 hover:text-red" href="#Map">
                             Map
                             </a>
                         </li>
                         <li>
-                            <a className="pr-2 hover:text-red" href="#mission" target="_blank">
+                            <a className="pr-2 hover:text-red" href="#Mission">
                                 Mission
                             </a>
                         </li>
