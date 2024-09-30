@@ -5,11 +5,11 @@ import Navbar from "./componnents/Navbar";
 
 export default function Home() {
   return (
-    <>
+    <div >
       <Navbar/>
       <Hero/>
       <Map/>
       <Mission/>
-    </>
+    </div>
   );
 }
